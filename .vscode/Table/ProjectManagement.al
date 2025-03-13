@@ -34,6 +34,11 @@ table 50100 ProjectManagement
         {
             DataClassification = ToBeClassified;
         }
+
+        field(6; MyField2; Blob)
+        {
+            DataClassification = ToBeClassified;
+        }
     }
     // keys
     // {
