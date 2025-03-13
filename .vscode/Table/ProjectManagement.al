@@ -29,6 +29,11 @@ table 50100 ProjectManagement
             DataClassification = ToBeClassified;
             Caption = 'End Date';
         }
+
+        field(5; MyField; Blob)
+        {
+            DataClassification = ToBeClassified;
+        }
     }
     // keys
     // {
